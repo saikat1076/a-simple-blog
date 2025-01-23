@@ -8,7 +8,6 @@ const __dirname = dirname(__filename);
 const compat = new FlatCompat({
   baseDirectory: __dirname,
 });
-const obj = {parse: () => {} }
 
 const eslintConfig = [...compat.extends("next/core-web-vitals")];
 
